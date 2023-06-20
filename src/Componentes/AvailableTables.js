@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import '../Estilos/AvailableTables.css'; // Asegúrate de tener este archivo CSS creado
+import '../Estilos/AvailableTables.css'; // Archivo CSS creado
 import axios from 'axios';
 import noTablesImage from '../Img/time.png'; // Ruta de la imagen cuando no hay mesas disponibles
 import Clock from '../Componentes/Clock';

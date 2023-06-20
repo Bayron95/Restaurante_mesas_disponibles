@@ -14,7 +14,7 @@ oracledb.getConnection(config, (err, connection) => {
         return;
     }
 
-    // Aquí puedes ejecutar tus consultas o procedimientos almacenados utilizando la conexión
+    // Aquí ejecuto las consultas o procedimientos almacenados utilizando la conexión
 
     connection.close((err) => {
         if (err) {
