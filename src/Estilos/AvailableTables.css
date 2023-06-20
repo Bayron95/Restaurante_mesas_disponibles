@@ -1,0 +1,90 @@
+.available-tables {
+    margin-top: 20px;
+    position: relative;
+}
+
+.table-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.table-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    flex: 1 1 200px;
+    max-width: 200px;
+}
+
+.table-name {
+    font-weight: bold;
+}
+
+.table-capacity {
+    color: #1b0202;
+}
+
+.h3 {
+    color: azure;
+}
+
+.table-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.table-card.selected {
+    background-color: #ccc;
+}
+
+.table-name {
+    font-weight: bold;
+}
+
+.table-capacity {
+    color: #666;
+}
+
+.options-window {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.options-buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-accept,
+.btn-cancel {
+    margin-right: 10px;
+}
+
+.image-time {
+    max-width: 50%;
+    height: 180px;
+}

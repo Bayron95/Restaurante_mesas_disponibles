@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import AvailableTables from './Componentes/AvailableTables';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="app">
+            <nav className="navbar">
+                <h1>Kanji-GO</h1>
+            </nav>
+            <div className="content">
+                <h2 className="h2">Mesas Disponibles</h2>
+                <AvailableTables />
+            </div>
+            <footer className="footer">
+                <p>© 2023 Kanji GO Restaurant.<br></br> Todos los derechos reservados.</p>
+            </footer>
+        </div>
+    );
+};
 
 export default App;
+
